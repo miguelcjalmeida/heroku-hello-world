@@ -4,7 +4,7 @@
   "description": "My first app in Heroku!!",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/miguelcjalmeida/heroku-hello-world/issues"
   },
-  "homepage": "https://github.com/miguelcjalmeida/heroku-hello-world#readme"
+  "homepage": "https://github.com/miguelcjalmeida/heroku-hello-world#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
 }
