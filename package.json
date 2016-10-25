@@ -1,0 +1,25 @@
+{
+  "name": "heroku-hello-world",
+  "version": "1.0.0",
+  "description": "My first app in Heroku!!",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelcjalmeida/heroku-hello-world.git"
+  },
+  "keywords": [
+    "heroku",
+    "hello",
+    "world",
+    "expressjs"
+  ],
+  "author": "Miguel Almeida <darkmagusbr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelcjalmeida/heroku-hello-world/issues"
+  },
+  "homepage": "https://github.com/miguelcjalmeida/heroku-hello-world#readme"
+}
