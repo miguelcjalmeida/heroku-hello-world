@@ -15,8 +15,16 @@ app.get('/json', function(request, response) {
 })
 
 app.get('/cool', function(request, response) {
-  response.send(cool());
-});
+    response.send(cool())
+})
+
+app.get('/times', function(request, response) {
+    let result = ''
+    let times = process.env.TIMES || 5
+    for (let i=0; i < times; i++)
+      result += i + ' ';
+    response.send(result)
+})
 
 app.listen(app.get('port'), function(){
     console.log('app is running on port', app.get('port'))
