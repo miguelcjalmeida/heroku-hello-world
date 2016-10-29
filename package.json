@@ -4,7 +4,7 @@
   "description": "My first app in Heroku!!",
   "main": "server/index.js",
   "scripts": {
-    "postinstall": "node server/index.js"
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
