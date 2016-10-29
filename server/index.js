@@ -22,7 +22,7 @@ app.get('/times', function(request, response) {
     let result = ''
     let times = process.env.TIMES || 5
     for (let i=0; i < times; i++)
-      result += i + ' ';
+      result += i + ' ' + process.env.DEFAULT_TEXT + ' ';
     response.send(result)
 })
 
